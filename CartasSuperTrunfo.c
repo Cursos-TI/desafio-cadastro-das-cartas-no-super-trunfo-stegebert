@@ -47,6 +47,21 @@ int main() {
  
      printf("Digite o número de pontos turísticos: ");
      scanf("%d", &pontosTuristicos1);
+
+     // --- Cadastro da cidade da Alemanha ---
+    printf("\nCadastro da cidade %s (%s - %s) [Código: %s]\n", nome2, estado2, pais2, codigo2);
+
+    printf("Digite a população da cidade: ");
+    scanf("%d", &populacao2);
+
+    printf("Digite a área da cidade (em km²): ");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB da cidade (em bilhões): ");
+    scanf("%f", &pib2);
+
+    printf("Digite o número de pontos turísticos: ");
+    scanf("%d", &pontosTuristicos2);
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
     // Exibição dos Dados das Cartas:
