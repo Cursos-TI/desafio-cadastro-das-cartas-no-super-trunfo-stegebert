@@ -29,7 +29,7 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
 
-     // --- Cadastro da cidade do Brasil ---
+    // --- Cadastro da cidade do Brasil ---
      printf("Cadastro da cidade %s (%s - %s) [Código: %s]\n", nome1, estado1, pais1, codigo1);
 
      printf("Digite a população da cidade: ");
@@ -44,7 +44,7 @@ int main() {
      printf("Digite o número de pontos turísticos: ");
      scanf("%d", &pontosTuristicos1);
 
-     // --- Cadastro da cidade da Alemanha ---
+    // --- Cadastro da cidade da Alemanha ---
     printf("\nCadastro da cidade %s (%s - %s) [Código: %s]\n", nome2, estado2, pais2, codigo2);
 
     printf("Digite a população da cidade: ");
