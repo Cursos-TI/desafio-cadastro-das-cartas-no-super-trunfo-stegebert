@@ -19,6 +19,17 @@ int main() {
     float area1;
     float pib1;
     int pontosTuristicos1;
+
+    // ===== CARTA 2 - Alemanha =====
+    char codigo2[] = "C01"; // Código da cidade (C = Baviera)
+    char nome2[] = "Munique";
+    char estado2[] = "Baviera";
+    char pais2[] = "Alemanha";
+    int populacao2;
+    float area2;
+    float pib2;
+    int pontosTuristicos2;
+    
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
